@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="125717" started-at="2019-12-22T12:25:42Z" finished-at="2019-12-22T12:27:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="125717" started-at="2019-12-22T12:25:42Z" finished-at="2019-12-22T12:27:48Z">
+      <class name="com.wanafood.testcases.WanaFoodAgent_testcases">
+        <test-method status="PASS" signature="htmlReportSetup()[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="htmlReportSetup" is-config="true" duration-ms="301" started-at="2019-12-22T12:25:42Z" finished-at="2019-12-22T12:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- htmlReportSetup -->
+        <test-method status="PASS" signature="webStart()[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="webStart" is-config="true" duration-ms="25054" started-at="2019-12-22T12:25:42Z" finished-at="2019-12-22T12:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webStart -->
+        <test-method status="PASS" signature="login(java.util.HashMap)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="login" duration-ms="27581" started-at="2019-12-22T12:26:08Z" data-provider="returndata_login" finished-at="2019-12-22T12:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PhoneNumber=79859, Email=pine@ongo.com, Pin=uncheck}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="getResult" is-config="true" duration-ms="1303" started-at="2019-12-22T12:26:36Z" finished-at="2019-12-22T12:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WanaFoodAgent_testcases.login(java.util.HashMap)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="login(java.util.HashMap)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="login" duration-ms="22662" started-at="2019-12-22T12:26:37Z" data-provider="returndata_login" finished-at="2019-12-22T12:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PhoneNumber=, Email=, Pin=uncheck}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="getResult" is-config="true" duration-ms="1301" started-at="2019-12-22T12:27:00Z" finished-at="2019-12-22T12:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WanaFoodAgent_testcases.login(java.util.HashMap)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="login(java.util.HashMap)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="login" duration-ms="9204" started-at="2019-12-22T12:27:01Z" data-provider="returndata_login" finished-at="2019-12-22T12:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PhoneNumber=7989551559, Email=, Pin=check}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="getResult" is-config="true" duration-ms="1301" started-at="2019-12-22T12:27:10Z" finished-at="2019-12-22T12:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=WanaFoodAgent_testcases.login(java.util.HashMap)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="orderSum()[pri:1, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="orderSum" duration-ms="17860" started-at="2019-12-22T12:27:12Z" finished-at="2019-12-22T12:27:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSum -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="getResult" is-config="true" duration-ms="1301" started-at="2019-12-22T12:27:29Z" finished-at="2019-12-22T12:27:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderSum status=SUCCESS method=WanaFoodAgent_testcases.orderSum()[pri:1, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="order_pickup()[pri:2, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="order_pickup" duration-ms="3957" started-at="2019-12-22T12:27:31Z" finished-at="2019-12-22T12:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_pickup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="getResult" is-config="true" duration-ms="1302" started-at="2019-12-22T12:27:35Z" finished-at="2019-12-22T12:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=order_pickup status=SUCCESS method=WanaFoodAgent_testcases.order_pickup()[pri:2, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setGoOFFduty()[pri:3, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="setGoOFFduty" duration-ms="8595" started-at="2019-12-22T12:27:36Z" finished-at="2019-12-22T12:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGoOFFduty -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="getResult" is-config="true" duration-ms="1301" started-at="2019-12-22T12:27:45Z" finished-at="2019-12-22T12:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setGoOFFduty status=SUCCESS method=WanaFoodAgent_testcases.setGoOFFduty()[pri:3, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="htmlClose()[pri:0, instance:com.wanafood.testcases.WanaFoodAgent_testcases@47ef968d]" name="htmlClose" is-config="true" duration-ms="1882" started-at="2019-12-22T12:27:46Z" finished-at="2019-12-22T12:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- htmlClose -->
+      </class> <!-- com.wanafood.testcases.WanaFoodAgent_testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
